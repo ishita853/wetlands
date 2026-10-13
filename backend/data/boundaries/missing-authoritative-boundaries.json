@@ -1,0 +1,265 @@
+{
+  "count": 26,
+  "sites": [
+    {
+      "ramsar_number": 229,
+      "name": "Chilika Lake",
+      "state": "Odisha",
+      "latitude": 19.7,
+      "longitude": 85.35,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/chilka",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 230,
+      "name": "Keoladeo National Park",
+      "state": "Rajasthan",
+      "latitude": 27.216667,
+      "longitude": 77.533333,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Keoladeo_National_Park_and_Ajan_Bande",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 461,
+      "name": "Wular Lake",
+      "state": "Jammu and Kashmir",
+      "latitude": 34.266667,
+      "longitude": 74.55,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Wular_Lake_and_associated_marshes",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 462,
+      "name": "Harike Lake",
+      "state": "Punjab",
+      "latitude": 31.216667,
+      "longitude": 75.2,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Harike_Lake_Bird_Sanctuary",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 463,
+      "name": "Loktak Lake",
+      "state": "Manipur",
+      "latitude": 24.433333,
+      "longitude": 93.816667,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Loktak_Lake",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 464,
+      "name": "Sambhar Lake",
+      "state": "Rajasthan",
+      "latitude": 27.0,
+      "longitude": 75.0,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Sambhar_Lake",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1160,
+      "name": "Kanjli",
+      "state": "Punjab",
+      "latitude": 31.416667,
+      "longitude": 75.366667,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Kanjli_Lake",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1161,
+      "name": "Ropar",
+      "state": "Punjab",
+      "latitude": 31.016667,
+      "longitude": 76.5,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Ropar_Lake",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1204,
+      "name": "Ashtamudi Wetland",
+      "state": "Kerala",
+      "latitude": 8.95,
+      "longitude": 76.583333,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/asthamudi",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1205,
+      "name": "Bhitarkanika Mangroves",
+      "state": "Odisha",
+      "latitude": 20.65,
+      "longitude": 86.9,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Bhitarkanika_Wildlife_Sanctuary_and_National_Park",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1206,
+      "name": "Bhoj Wetland",
+      "state": "Madhya Pradesh",
+      "latitude": 23.233333,
+      "longitude": 77.333333,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Bhoj_wetland",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1207,
+      "name": "Deepor Beel",
+      "state": "Assam",
+      "latitude": 26.133333,
+      "longitude": 91.65,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Deepor_Beel_Bird_Sanctuary",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1208,
+      "name": "East Calcutta Wetlands",
+      "state": "West Bengal",
+      "latitude": 22.45,
+      "longitude": 88.45,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/east_kolkata",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1209,
+      "name": "Kolleru Lake",
+      "state": "Andhra Pradesh",
+      "latitude": 16.616667,
+      "longitude": 81.2,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Kolleru_Lake_Wildlife_Sanctuary",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1210,
+      "name": "Point Calimere Wildlife and Bird Sanctuary",
+      "state": "Tamil Nadu",
+      "latitude": 10.316667,
+      "longitude": 79.633333,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Point_Calimere_Wildlife_Sanctuary",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1211,
+      "name": "Pong Dam Lake",
+      "state": "Himachal Pradesh",
+      "latitude": 32.016667,
+      "longitude": 76.083333,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Pong_Dam_Lake_Wildlife_Sanctuary",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1212,
+      "name": "Sasthamkotta Lake",
+      "state": "Kerala",
+      "latitude": 9.033333,
+      "longitude": 76.616667,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Sasthamkotta",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1213,
+      "name": "Tsomoriri",
+      "state": "Ladakh",
+      "latitude": 32.9,
+      "longitude": 78.3,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Tsomoriri_Lake_and_adjacent_marshes",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1214,
+      "name": "Vembanad-Kol Wetland",
+      "state": "Kerala",
+      "latitude": 9.833333,
+      "longitude": 76.75,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Vembanad_Lake",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1569,
+      "name": "Chandertal Wetland",
+      "state": "Himachal Pradesh",
+      "latitude": 32.483333,
+      "longitude": 77.6,
+      "gee_roi_asset": null,
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1570,
+      "name": "Hokera Wetland",
+      "state": "Jammu and Kashmir",
+      "latitude": 34.083333,
+      "longitude": 74.7,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/hokera",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1571,
+      "name": "Renuka Wetland",
+      "state": "Himachal Pradesh",
+      "latitude": 31.616667,
+      "longitude": 77.45,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/renuka",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1572,
+      "name": "Rudrasagar Lake",
+      "state": "Tripura",
+      "latitude": 23.483333,
+      "longitude": 91.266667,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Rudrasagar_Lake",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1573,
+      "name": "Surinsar-Mansar Lakes",
+      "state": "Jammu and Kashmir",
+      "latitude": 32.75,
+      "longitude": 75.2,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Surinsar_Mansar",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 1574,
+      "name": "Upper Ganga River",
+      "state": "Uttar Pradesh",
+      "latitude": 28.55,
+      "longitude": 78.2,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Upper_Ganga_River",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    },
+    {
+      "ramsar_number": 2078,
+      "name": "Nalsarovar",
+      "state": "Gujarat",
+      "latitude": 22.775833,
+      "longitude": 72.039167,
+      "gee_roi_asset": "projects/ee-ramsarwetlands5/assets/Nalsarovar_Wildlife_Sanctuary",
+      "request": "Official Ramsar site boundary polygon (vector, with CRS)",
+      "request_to": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority)"
+    }
+  ]
+}

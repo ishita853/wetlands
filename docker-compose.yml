@@ -1,0 +1,79 @@
+services:
+  postgres:
+    image: postgis/postgis:16-3.4
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ramsar_wetlands
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@postgres:5432/ramsar_wetlands
+      REDIS_URL: redis://redis:6379/0
+      CORS_ORIGINS: '["http://localhost:3000"]'
+      JWT_SECRET: changeme-development-only-secret
+      # First administrator; the password must be changed at first sign-in.
+      INITIAL_ADMIN_USERNAME: admin
+      INITIAL_ADMIN_PASSWORD: admin@wetlands
+      DATA_STORAGE_DIR: /srv/storage
+      CLIMATE_PUBLISH_DIR: /srv/climate
+      RAMSAR_SITES_FILE: /srv/ramsar-sites.json
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - dataset_storage:/srv/storage
+      - climate_data:/srv/climate
+      - ./frontend/data/ramsar-sites.json:/srv/ramsar-sites.json:ro
+    command: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+
+  frontend:
+    build:
+      context: ./frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+      # Server-side calls from Next.js to the backend container.
+      API_URL: http://backend:8000
+      # Published climate files, written by the backend's admin upload.
+      CLIMATE_DATA_DIR: /srv/climate
+    ports:
+      - "3000:3000"
+    volumes:
+      - climate_data:/srv/climate
+
+volumes:
+  postgres_data:
+  dataset_storage:
+  climate_data:

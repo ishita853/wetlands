@@ -1,0 +1,29 @@
+{
+  "name": "India Ramsar Sites September 2026",
+  "role": "provided ROI dataset (primary water-quality analysis ROI, approved 2026-09-25)",
+  "supplied": "2026-09-25, placed in backend/data/ by the project team",
+  "files": {
+    "India Ramsar Sites September 2026.geojson": {
+      "format": "GeoJSON FeatureCollection",
+      "sha256": "81dbc649cbfb418ea12c641ca157c40aac3e86bfbbf4c9eb65936d94407d485c",
+      "crs": "urn:ogc:def:crs:OGC:1.3:CRS84 (WGS84 longitude/latitude)",
+      "geometry_type": "MultiPolygon (114)",
+      "coordinate_precision": "7 decimal places"
+    },
+    "Indian Ramsar Sites.shp (+ .shx .dbf .prj .cpg .qmd)": {
+      "format": "ESRI Shapefile with QGIS 3.44 metadata (.qmd, no title/abstract/source)",
+      "sha256_shp": "6e722f5a4ad0ff77de31af23a8b1da8faca8e402fca5b5230da03b1dd8aa0755",
+      "sha256_dbf": "0684f25d1c3d13535cdfe9827fde7b6787289626b74f011e04c7160140e3f1b9",
+      "crs": "GCS_WGS_1984 / EPSG:4326",
+      "geometry_type": "Polygon (112), MultiPolygon (2)",
+      "note": "Same 114 features and attributes as the GeoJSON; geometry within 8 mm of it"
+    }
+  },
+  "fields": ["v_idris", "ramsarid", "officialna", "iso3", "country_en", "area_off"],
+  "field_note": "'officialna' is RSIS 'officialname' truncated by the 10-character shapefile field limit",
+  "features": 114,
+  "distinct_ramsar_sites": 75,
+  "sites_not_covered": 26,
+  "provenance_finding": "Not a 101-site dataset and not a GEE ROI export. Every feature's v_idris, ramsarid, name and area_off equals the RSIS layer ramsar_sdi:features_published (raw copy in boundaries/raw/rsis/); per site the geometry matches RSIS within 7.8 mm (Hausdorff) and area within 0.001 %, i.e. RSIS geometry rounded to 7 decimals. The 3 invalid geometries (2408, 2413, 2548) are the same as in RSIS.",
+  "used_as_supplied": "The GeoJSON is read as-is: no repair, simplification, buffering or reprojection. A site's features are collected into one MultiPolygon without dissolving. Invalid geometries are rejected, not repaired."
+}

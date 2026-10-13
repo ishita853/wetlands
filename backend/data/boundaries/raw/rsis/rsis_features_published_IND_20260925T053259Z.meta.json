@@ -1,0 +1,20 @@
+{
+  "raw_file": "rsis_features_published_IND_20260925T053259Z.geojson",
+  "retrieved_at": "2026-09-25T05:32:59Z",
+  "source": "Ramsar Sites Information Service (RSIS), Ramsar Convention Secretariat",
+  "service": "https://rsis.ramsar.org/geoserver/wfs",
+  "query": "https://rsis.ramsar.org/geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=ramsar_sdi:features_published&outputFormat=application/json&CQL_FILTER=iso3='IND'",
+  "layer": "ramsar_sdi:features_published",
+  "filter": "iso3 = 'IND'",
+  "crs": "EPSG:4326 (declared by the response as urn:ogc:def:crs:EPSG::4326; coordinates in longitude, latitude order)",
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "size_bytes": 3916445,
+  "sha256": "8c5bfc298a5831f33745a8877c3818ae2fa0766e7fe54453aab948a62ba13b41",
+  "feature_count": 114,
+  "fields": ["v_idris", "ramsarid", "officialname", "iso3", "country_en", "area_off", "geom"],
+  "wfs_capabilities_access": "Fees: NONE; AccessConstraints: NONE (GetCapabilities, 2026-09-24)",
+  "licence": "Reported by ramsar.org/licence-information as CC BY 4.0 for RSIS data and downloads; the page could not be fetched automatically (bot protection) and must be confirmed manually.",
+  "responsibility": "Site data are supplied by the Contracting Party; accuracy is the responsibility of India's Administrative Authority (MoEFCC).",
+  "note": "This file is the unmodified WFS response. Do not edit it; processed outputs are rebuilt from it by `python -m app.tools.build_boundaries`."
+}

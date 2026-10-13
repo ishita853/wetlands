@@ -1,0 +1,598 @@
+{
+  "description": "The 74 ROI FeatureCollection assets of the GEE water-quality app (tables table1..table74) mapped to Ramsar site numbers. mapping: 'exact' = asset name equals the RSIS official name; 'manual_confirmed' = matched manually and confirmed by the GEE app's own description (site number, or name+state+area); 'manual_uncertain' = matched manually, name/state only (docs/phase-j-validation-report.md B.1). Polygons are not included: export each asset to backend/data/roi/<geeAssetName>.geojson.",
+  "geeProject": "ee-ramsarwetlands5",
+  "rois": [
+    {
+      "geeTableIndex": 1,
+      "geeAssetName": "Ansupa_Lake",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Ansupa_Lake",
+      "ramsarSiteId": 2487,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Ansupa Lake' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 2,
+      "geeAssetName": "Asan_Conservation_Reserve",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Asan_Conservation_Reserve",
+      "ramsarSiteId": 2437,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Asan Conservation Reserve' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 3,
+      "geeAssetName": "asthamudi",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/asthamudi",
+      "ramsarSiteId": 1204,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'asthamudi' cites Ramsar site no. 1204."
+    },
+    {
+      "geeTableIndex": 4,
+      "geeAssetName": "Bakhira_Wildlife_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Bakhira_Wildlife_Sanctuary",
+      "ramsarSiteId": 2465,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Bakhira Wildlife Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 5,
+      "geeAssetName": "Beas_Conservation_reserve",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Beas_Conservation_reserve",
+      "ramsarSiteId": 2408,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Beas Conservation Reserve' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 6,
+      "geeAssetName": "Bhindawas_Wildlife_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Bhindawas_Wildlife_Sanctuary",
+      "ramsarSiteId": 2459,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Bhindawas Wildlife Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 7,
+      "geeAssetName": "Bhitarkanika_Wildlife_Sanctuary_and_National_Park",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Bhitarkanika_Wildlife_Sanctuary_and_National_Park",
+      "ramsarSiteId": 1205,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Bhitarkanika_Wildlife_Sanctuary_and_National_Park' cites Ramsar site no. 1205."
+    },
+    {
+      "geeTableIndex": 8,
+      "geeAssetName": "Bhoj_wetland",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Bhoj_wetland",
+      "ramsarSiteId": 1206,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Bhoj Wetland' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 9,
+      "geeAssetName": "chilka",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/chilka",
+      "ramsarSiteId": 229,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'chilka' cites Ramsar site no. 229."
+    },
+    {
+      "geeTableIndex": 10,
+      "geeAssetName": "Chitrangudi_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Chitrangudi_Bird_Sanctuary",
+      "ramsarSiteId": 2491,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Chitrangudi Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 11,
+      "geeAssetName": "Deepor_Beel_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Deepor_Beel_Bird_Sanctuary",
+      "ramsarSiteId": 1207,
+      "mapping": "manual_uncertain",
+      "mappingEvidence": "No site number or area in the GEE description; asset names the Bird Sanctuary, whose boundary may differ from the Ramsar site."
+    },
+    {
+      "geeTableIndex": 12,
+      "geeAssetName": "east_kolkata",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/east_kolkata",
+      "ramsarSiteId": 1208,
+      "mapping": "manual_uncertain",
+      "mappingEvidence": "No site number or area in the GEE description; identity from name/state only."
+    },
+    {
+      "geeTableIndex": 13,
+      "geeAssetName": "Gulf_of_Mannar_Marine_Biosphere_Reserve",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Gulf_of_Mannar_Marine_Biosphere_Reserve",
+      "ramsarSiteId": 2472,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Gulf of Mannar Marine Biosphere Reserve' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 14,
+      "geeAssetName": "Haiderpur_Wetland",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Haiderpur_Wetland",
+      "ramsarSiteId": 2463,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Haiderpur Wetland' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 15,
+      "geeAssetName": "Harike_Lake_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Harike_Lake_Bird_Sanctuary",
+      "ramsarSiteId": 462,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Harike_Lake_Bird_Sanctuary' cites Ramsar site no. 462."
+    },
+    {
+      "geeTableIndex": 16,
+      "geeAssetName": "Hirakud_Reservoir",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Hirakud_Reservoir",
+      "ramsarSiteId": 2494,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Hirakud Reservoir' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 17,
+      "geeAssetName": "hokera",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/hokera",
+      "ramsarSiteId": 1570,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'hokera' cites Ramsar site no. 1570."
+    },
+    {
+      "geeTableIndex": 18,
+      "geeAssetName": "Hygam_Wetland_Conservation_Reserve",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Hygam_Wetland_Conservation_Reserve",
+      "ramsarSiteId": 2496,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Hygam Wetland Conservation Reserve' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 19,
+      "geeAssetName": "Kabartal_Wetland",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Kabartal_Wetland",
+      "ramsarSiteId": 2436,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Kabartal Wetland' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 20,
+      "geeAssetName": "Kanjirankulam_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Kanjirankulam_Bird_Sanctuary",
+      "ramsarSiteId": 2486,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Kanjirankulam Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 21,
+      "geeAssetName": "Kanjli_Lake",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Kanjli_Lake",
+      "ramsarSiteId": 1160,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Kanjli_Lake' cites Ramsar site no. 1160."
+    },
+    {
+      "geeTableIndex": 22,
+      "geeAssetName": "Karikili_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Karikili_Bird_Sanctuary",
+      "ramsarSiteId": 2480,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Karikili Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 23,
+      "geeAssetName": "Keoladeo_National_Park_and_Ajan_Bande",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Keoladeo_National_Park_and_Ajan_Bande",
+      "ramsarSiteId": 230,
+      "mapping": "manual_uncertain",
+      "mappingEvidence": "No site number or area in the GEE description; asset name adds 'Ajan Bande', so the polygon may extend beyond the Ramsar site."
+    },
+    {
+      "geeTableIndex": 24,
+      "geeAssetName": "Keshopur-Miani_Community_Reserve",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Keshopur-Miani_Community_Reserve",
+      "ramsarSiteId": 2414,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Keshopur-Miani Community Reserve' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 25,
+      "geeAssetName": "Khijadia_Wildlife_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Khijadia_Wildlife_Sanctuary",
+      "ramsarSiteId": 2464,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Khijadia Wildlife Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 26,
+      "geeAssetName": "Kolleru_Lake_Wildlife_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Kolleru_Lake_Wildlife_Sanctuary",
+      "ramsarSiteId": 1209,
+      "mapping": "manual_uncertain",
+      "mappingEvidence": "No site number or area in the GEE description; asset names the Wildlife Sanctuary, whose boundary may differ from the Ramsar site."
+    },
+    {
+      "geeTableIndex": 27,
+      "geeAssetName": "Koonthankulam_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Koonthankulam_Bird_Sanctuary",
+      "ramsarSiteId": 2479,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Koonthankulam Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 28,
+      "geeAssetName": "Loktak_Lake",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Loktak_Lake",
+      "ramsarSiteId": 463,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Loktak Lake' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 29,
+      "geeAssetName": "Lonar_Lake",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Lonar_Lake",
+      "ramsarSiteId": 2441,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Lonar Lake' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 30,
+      "geeAssetName": "Nalsarovar_Wildlife_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Nalsarovar_Wildlife_Sanctuary",
+      "ramsarSiteId": 2078,
+      "mapping": "manual_uncertain",
+      "mappingEvidence": "No site number or area in the GEE description; asset names the Wildlife Sanctuary."
+    },
+    {
+      "geeTableIndex": 31,
+      "geeAssetName": "Nanda_Lake",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Nanda_Lake",
+      "ramsarSiteId": 2471,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Nanda Lake' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 32,
+      "geeAssetName": "Nandur_Madhameshwar",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Nandur_Madhameshwar",
+      "ramsarSiteId": 2410,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Nandur Madhameshwar' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 33,
+      "geeAssetName": "Nangal_Wildlife_sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Nangal_Wildlife_sanctuary",
+      "ramsarSiteId": 2407,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Nangal Wildlife Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 34,
+      "geeAssetName": "Nawabganj_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Nawabganj_Bird_Sanctuary",
+      "ramsarSiteId": 2412,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Nawabganj Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 35,
+      "geeAssetName": "Pala_Wetland",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Pala_Wetland",
+      "ramsarSiteId": 2484,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Pala Wetland' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 36,
+      "geeAssetName": "Pallikaranai_Marsh_Reserve_Forest",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Pallikaranai_Marsh_Reserve_Forest",
+      "ramsarSiteId": 2481,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Pallikaranai Marsh Reserve Forest' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 37,
+      "geeAssetName": "Parvati_Arga_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Parvati_Arga_Bird_Sanctuary",
+      "ramsarSiteId": 2416,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Parvati Arga Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 38,
+      "geeAssetName": "Pichavaram_Mangrove",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Pichavaram_Mangrove",
+      "ramsarSiteId": 2482,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Pichavaram Mangrove' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 39,
+      "geeAssetName": "Point_Calimere_Wildlife_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Point_Calimere_Wildlife_Sanctuary",
+      "ramsarSiteId": 1210,
+      "mapping": "manual_uncertain",
+      "mappingEvidence": "No site number or area in the GEE description; asset says 'Wildlife Sanctuary', the Ramsar site is the 'Wildlife and Bird Sanctuary'."
+    },
+    {
+      "geeTableIndex": 40,
+      "geeAssetName": "Pong_Dam_Lake_Wildlife_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Pong_Dam_Lake_Wildlife_Sanctuary",
+      "ramsarSiteId": 1211,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Pong_Dam_Lake_Wildlife_Sanctuary' gives name, state and area (15662 ha) matching exactly one RSIS record."
+    },
+    {
+      "geeTableIndex": 41,
+      "geeAssetName": "Ranganathittu_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Ranganathittu_Bird_Sanctuary",
+      "ramsarSiteId": 2473,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Ranganathittu Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 42,
+      "geeAssetName": "renuka",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/renuka",
+      "ramsarSiteId": 1571,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'renuka' cites Ramsar site no. 1571."
+    },
+    {
+      "geeTableIndex": 43,
+      "geeAssetName": "Ropar_Lake",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Ropar_Lake",
+      "ramsarSiteId": 1161,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Ropar_Lake' cites Ramsar site no. 1161."
+    },
+    {
+      "geeTableIndex": 44,
+      "geeAssetName": "Rudrasagar_Lake",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Rudrasagar_Lake",
+      "ramsarSiteId": 1572,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Rudrasagar Lake' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 45,
+      "geeAssetName": "Sakya_sagar",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Sakya_sagar",
+      "ramsarSiteId": 2483,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Sakya_sagar' gives name, state and area (248 ha) matching exactly one RSIS record."
+    },
+    {
+      "geeTableIndex": 46,
+      "geeAssetName": "Saman_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Saman_Bird_Sanctuary",
+      "ramsarSiteId": 2413,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Saman Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 47,
+      "geeAssetName": "Samaspur_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Samaspur_Bird_Sanctuary",
+      "ramsarSiteId": 2415,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Samaspur Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 48,
+      "geeAssetName": "Sambhar_Lake",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Sambhar_Lake",
+      "ramsarSiteId": 464,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Sambhar Lake' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 49,
+      "geeAssetName": "sandi_Bird_sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/sandi_Bird_sanctuary",
+      "ramsarSiteId": 2409,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Sandi Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 50,
+      "geeAssetName": "Sarsai_Nawar_Jheel",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Sarsai_Nawar_Jheel",
+      "ramsarSiteId": 2411,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Sarsai Nawar Jheel' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 51,
+      "geeAssetName": "Sasthamkotta",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Sasthamkotta",
+      "ramsarSiteId": 1212,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Sasthamkotta' gives name, state and area (373 ha) matching exactly one RSIS record."
+    },
+    {
+      "geeTableIndex": 52,
+      "geeAssetName": "Satkosia_Gorge",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Satkosia_Gorge",
+      "ramsarSiteId": 2470,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Satkosia Gorge' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 53,
+      "geeAssetName": "Shallbugh_Wetland_Conservation_Reserve",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Shallbugh_Wetland_Conservation_Reserve",
+      "ramsarSiteId": 2488,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Shallbugh Wetland Conservation Reserve' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 54,
+      "geeAssetName": "Sirpur_wetland",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Sirpur_wetland",
+      "ramsarSiteId": 2478,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Sirpur Wetland' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 55,
+      "geeAssetName": "Suchindram_Theroor_Wetland_Complex",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Suchindram_Theroor_Wetland_Complex",
+      "ramsarSiteId": 2492,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Suchindram Theroor Wetland Complex' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 56,
+      "geeAssetName": "Sultanpur_National_Park",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Sultanpur_National_Park",
+      "ramsarSiteId": 2457,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Sultanpur National Park' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 57,
+      "geeAssetName": "sundarban_wetland",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/sundarban_wetland",
+      "ramsarSiteId": 2370,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Sundarban Wetland' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 58,
+      "geeAssetName": "Sur_Sarovar",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Sur_Sarovar",
+      "ramsarSiteId": 2440,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Sur Sarovar' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 59,
+      "geeAssetName": "Surinsar_Mansar",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Surinsar_Mansar",
+      "ramsarSiteId": 1573,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Surinsar_Mansar' cites Ramsar site no. 1573."
+    },
+    {
+      "geeTableIndex": 60,
+      "geeAssetName": "Tampara_Lake",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Tampara_Lake",
+      "ramsarSiteId": 2489,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Tampara Lake' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 61,
+      "geeAssetName": "Thane_Creek",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Thane_Creek",
+      "ramsarSiteId": 2490,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Thane Creek' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 62,
+      "geeAssetName": "Thol_Lake_Wildlife_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Thol_Lake_Wildlife_Sanctuary",
+      "ramsarSiteId": 2458,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Thol Lake Wildlife Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 63,
+      "geeAssetName": "Tso_Kar_Wetland_Complex",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Tso_Kar_Wetland_Complex",
+      "ramsarSiteId": 2443,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Tso Kar Wetland Complex' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 64,
+      "geeAssetName": "Tsomoriri_Lake_and_adjacent_marshes",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Tsomoriri_Lake_and_adjacent_marshes",
+      "ramsarSiteId": 1213,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Tsomoriri_Lake_and_adjacent_marshes' gives name, state and area (12000 ha) matching exactly one RSIS record."
+    },
+    {
+      "geeTableIndex": 65,
+      "geeAssetName": "Udhayamarthandapuram_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Udhayamarthandapuram_Bird_Sanctuary",
+      "ramsarSiteId": 2476,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Udhayamarthandapuram Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 66,
+      "geeAssetName": "Upper_Ganga_River",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Upper_Ganga_River",
+      "ramsarSiteId": 1574,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Upper Ganga River' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 67,
+      "geeAssetName": "Vaduvur_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Vaduvur_Bird_Sanctuary",
+      "ramsarSiteId": 2493,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Vaduvur Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 68,
+      "geeAssetName": "Vedanthangal_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Vedanthangal_Bird_Sanctuary",
+      "ramsarSiteId": 2477,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Vedanthangal Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 69,
+      "geeAssetName": "Vellode_Bird_Sanctuary",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Vellode_Bird_Sanctuary",
+      "ramsarSiteId": 2475,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Vellode Bird Sanctuary' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 70,
+      "geeAssetName": "Vembanad_Lake",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Vembanad_Lake",
+      "ramsarSiteId": 1214,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Vembanad_Lake' cites Ramsar site no. 1214."
+    },
+    {
+      "geeTableIndex": 71,
+      "geeAssetName": "Vembannur_Wetland_Complex",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Vembannur_Wetland_Complex",
+      "ramsarSiteId": 2474,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Vembannur Wetland Complex' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 72,
+      "geeAssetName": "Wadhvana_Wetland",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Wadhvana_Wetland",
+      "ramsarSiteId": 2454,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Wadhvana Wetland' (case/underscore-normalised)."
+    },
+    {
+      "geeTableIndex": 73,
+      "geeAssetName": "Wular_Lake_and_associated_marshes",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Wular_Lake_and_associated_marshes",
+      "ramsarSiteId": 461,
+      "mapping": "manual_confirmed",
+      "mappingEvidence": "The GEE app's own description for 'Wular_Lake_and_associated_marshes' gives name, state and area (18900 ha) matching exactly one RSIS record."
+    },
+    {
+      "geeTableIndex": 74,
+      "geeAssetName": "Yashwant_Sagar",
+      "geeAssetId": "projects/ee-ramsarwetlands5/assets/Yashwant_Sagar",
+      "ramsarSiteId": 2495,
+      "mapping": "exact",
+      "mappingEvidence": "GEE asset name equals the RSIS official name 'Yashwant Sagar' (case/underscore-normalised)."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ramsar-wetlands-portal",
+  "private": true,
+  "description": "Indian Ramsar Wetlands Climate & Environment Monitoring Portal — monorepo root. See frontend/ and backend/ for the actual projects.",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "lint": "npm --prefix frontend run lint",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "format": "npm --prefix frontend run format",
+    "format:check": "npm --prefix frontend run format:check"
+  }
+}

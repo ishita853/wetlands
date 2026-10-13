@@ -1,0 +1,647 @@
+{
+  "description": "Boundary candidates found during the 2026-09-25 coverage investigation for the 26 sites without a published RSIS boundary and the 3 invalid RSIS geometries. NONE is imported or used for analysis; each needs confirmation by the named authority or project approval.",
+  "searched": {
+    "repository": "No wetland polygon for these sites; only RSIS copies and administrative boundaries (state/district/tehsil) exist.",
+    "gee": "Earth Engine access unavailable (no credentials; anonymous API HTTP 401). 0/74 GEE ROIs obtained.",
+    "rsis": "Published layer ramsar_sdi:features_published has none of the 26. All-version layers ramsar_sdi:features / features_bnd contain unnamed geometries at 14 of the 26 locations (listed below).",
+    "wdpa": "54 Indian Ramsar polygons; 5 of the 26 (older source record 1856), plus a valid version of 2408.",
+    "government_of_india": "No public vector source of Ramsar designated boundaries found (MoEFCC Wetlands of India portal shows points; SAC NWIA atlas and India-WRIS map wetland extent, not designated boundaries)."
+  },
+  "sites": [
+    {
+      "ramsar_number": 229,
+      "name": "Chilika Lake",
+      "state": "Odisha",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 40505254
+          },
+          "features": 2,
+          "geodesic_area_ha": 87770.3,
+          "area_ratio_to_official": 0.753,
+          "valid": false,
+          "contains_site_point": null,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        },
+        {
+          "source": "WDPA / Protected Planet (UNEP-WCMC and IUCN)",
+          "format": "GeoJSON via ArcGIS REST",
+          "crs": "EPSG:4326",
+          "licence": "WDPA terms: no redistribution through web services or downloadable web maps without UNEP-WCMC permission; no commercial use. The portal's /roi endpoint serves polygons, so permission is required.",
+          "represents_ramsar_boundary": "WDPA record designated 'Wetland of International Importance (Ramsar Site)', verification 'State Verified'",
+          "url": "https://www.protectedplanet.net/68005",
+          "identifier": {
+            "wdpa_site_id": 68005,
+            "metadataid": 1856
+          },
+          "geodesic_area_ha": 127770.0,
+          "area_ratio_to_official": 1.097,
+          "valid": true,
+          "status": "not_imported",
+          "reason": "Licence forbids serving via our web API without UNEP-WCMC permission; area differs from the official area."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 230,
+      "name": "Keoladeo National Park",
+      "state": "Rajasthan",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "WDPA / Protected Planet (UNEP-WCMC and IUCN)",
+          "format": "GeoJSON via ArcGIS REST",
+          "crs": "EPSG:4326",
+          "licence": "WDPA terms: no redistribution through web services or downloadable web maps without UNEP-WCMC permission; no commercial use. The portal's /roi endpoint serves polygons, so permission is required.",
+          "represents_ramsar_boundary": "WDPA record designated 'Wetland of International Importance (Ramsar Site)', verification 'State Verified'",
+          "url": "https://www.protectedplanet.net/68006",
+          "identifier": {
+            "wdpa_site_id": 68006,
+            "metadataid": 1856
+          },
+          "geodesic_area_ha": 3090.0,
+          "area_ratio_to_official": 1.076,
+          "valid": true,
+          "status": "not_imported",
+          "reason": "Licence forbids serving via our web API without UNEP-WCMC permission; area differs from the official area."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 461,
+      "name": "Wular Lake",
+      "state": "Jammu and Kashmir",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 40513349
+          },
+          "features": 1,
+          "geodesic_area_ha": 13081.2,
+          "area_ratio_to_official": 0.692,
+          "valid": true,
+          "contains_site_point": false,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        },
+        {
+          "source": "WDPA / Protected Planet (UNEP-WCMC and IUCN)",
+          "format": "GeoJSON via ArcGIS REST",
+          "crs": "EPSG:4326",
+          "licence": "WDPA terms: no redistribution through web services or downloadable web maps without UNEP-WCMC permission; no commercial use. The portal's /roi endpoint serves polygons, so permission is required.",
+          "represents_ramsar_boundary": "WDPA record designated 'Wetland of International Importance (Ramsar Site)', verification 'State Verified'",
+          "url": "https://www.protectedplanet.net/68007",
+          "identifier": {
+            "wdpa_site_id": 68007,
+            "metadataid": 1856
+          },
+          "geodesic_area_ha": 4750.0,
+          "area_ratio_to_official": 0.251,
+          "valid": true,
+          "status": "not_imported",
+          "reason": "Licence forbids serving via our web API without UNEP-WCMC permission; area differs from the official area."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 462,
+      "name": "Harike Lake",
+      "state": "Punjab",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 463,
+      "name": "Loktak Lake",
+      "state": "Manipur",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 40514874
+          },
+          "features": 1,
+          "geodesic_area_ha": 23645.3,
+          "area_ratio_to_official": 0.889,
+          "valid": true,
+          "contains_site_point": false,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        },
+        {
+          "source": "WDPA / Protected Planet (UNEP-WCMC and IUCN)",
+          "format": "GeoJSON via ArcGIS REST",
+          "crs": "EPSG:4326",
+          "licence": "WDPA terms: no redistribution through web services or downloadable web maps without UNEP-WCMC permission; no commercial use. The portal's /roi endpoint serves polygons, so permission is required.",
+          "represents_ramsar_boundary": "WDPA record designated 'Wetland of International Importance (Ramsar Site)', verification 'State Verified'",
+          "url": "https://www.protectedplanet.net/68009",
+          "identifier": {
+            "wdpa_site_id": 68009,
+            "metadataid": 1856
+          },
+          "geodesic_area_ha": 27130.0,
+          "area_ratio_to_official": 1.02,
+          "valid": true,
+          "status": "not_imported",
+          "reason": "Licence forbids serving via our web API without UNEP-WCMC permission."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 464,
+      "name": "Sambhar Lake",
+      "state": "Rajasthan",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 40521637
+          },
+          "features": 1,
+          "geodesic_area_ha": 23907.7,
+          "area_ratio_to_official": 0.996,
+          "valid": true,
+          "contains_site_point": true,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        },
+        {
+          "source": "WDPA / Protected Planet (UNEP-WCMC and IUCN)",
+          "format": "GeoJSON via ArcGIS REST",
+          "crs": "EPSG:4326",
+          "licence": "WDPA terms: no redistribution through web services or downloadable web maps without UNEP-WCMC permission; no commercial use. The portal's /roi endpoint serves polygons, so permission is required.",
+          "represents_ramsar_boundary": "WDPA record designated 'Wetland of International Importance (Ramsar Site)', verification 'State Verified'",
+          "url": "https://www.protectedplanet.net/68010",
+          "identifier": {
+            "wdpa_site_id": 68010,
+            "metadataid": 1856
+          },
+          "geodesic_area_ha": 19690.0,
+          "area_ratio_to_official": 0.82,
+          "valid": true,
+          "status": "not_imported",
+          "reason": "Licence forbids serving via our web API without UNEP-WCMC permission; area differs from the official area."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1160,
+      "name": "Kanjli",
+      "state": "Punjab",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1161,
+      "name": "Ropar",
+      "state": "Punjab",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1204,
+      "name": "Ashtamudi Wetland",
+      "state": "Kerala",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 4047775
+          },
+          "features": 40,
+          "geodesic_area_ha": 6117.2,
+          "area_ratio_to_official": 0.996,
+          "valid": false,
+          "contains_site_point": null,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1205,
+      "name": "Bhitarkanika Mangroves",
+      "state": "Odisha",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 40482340
+          },
+          "features": 1,
+          "geodesic_area_ha": 72263.3,
+          "area_ratio_to_official": 1.112,
+          "valid": true,
+          "contains_site_point": true,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1206,
+      "name": "Bhoj Wetland",
+      "state": "Madhya Pradesh",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 40473473
+          },
+          "features": 1,
+          "geodesic_area_ha": 3124.0,
+          "area_ratio_to_official": 0.976,
+          "valid": true,
+          "contains_site_point": true,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1207,
+      "name": "Deepor Beel",
+      "state": "Assam",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1208,
+      "name": "East Calcutta Wetlands",
+      "state": "West Bengal",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1209,
+      "name": "Kolleru Lake",
+      "state": "Andhra Pradesh",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1210,
+      "name": "Point Calimere Wildlife and Bird Sanctuary",
+      "state": "Tamil Nadu",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 40485070
+          },
+          "features": 2,
+          "geodesic_area_ha": 38570.1,
+          "area_ratio_to_official": 1.002,
+          "valid": true,
+          "contains_site_point": true,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1211,
+      "name": "Pong Dam Lake",
+      "state": "Himachal Pradesh",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 40491159
+          },
+          "features": 1,
+          "geodesic_area_ha": 15688.7,
+          "area_ratio_to_official": 1.002,
+          "valid": true,
+          "contains_site_point": false,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1212,
+      "name": "Sasthamkotta Lake",
+      "state": "Kerala",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 40493591
+          },
+          "features": 1,
+          "geodesic_area_ha": 365.9,
+          "area_ratio_to_official": 0.981,
+          "valid": true,
+          "contains_site_point": true,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1213,
+      "name": "Tsomoriri",
+      "state": "Ladakh",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 4048675
+          },
+          "features": 1,
+          "geodesic_area_ha": 20035.7,
+          "area_ratio_to_official": 1.67,
+          "valid": true,
+          "contains_site_point": true,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1214,
+      "name": "Vembanad-Kol Wetland",
+      "state": "Kerala",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1569,
+      "name": "Chandertal Wetland",
+      "state": "Himachal Pradesh",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1570,
+      "name": "Hokera Wetland",
+      "state": "Jammu and Kashmir",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 40461852
+          },
+          "features": 1,
+          "geodesic_area_ha": 1356.4,
+          "area_ratio_to_official": 0.987,
+          "valid": true,
+          "contains_site_point": true,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1571,
+      "name": "Renuka Wetland",
+      "state": "Himachal Pradesh",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1572,
+      "name": "Rudrasagar Lake",
+      "state": "Tripura",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1573,
+      "name": "Surinsar-Mansar Lakes",
+      "state": "Jammu and Kashmir",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 1574,
+      "name": "Upper Ganga River",
+      "state": "Uttar Pradesh",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 3572147
+          },
+          "features": 1,
+          "geodesic_area_ha": 25307.2,
+          "area_ratio_to_official": 0.952,
+          "valid": true,
+          "contains_site_point": true,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 2078,
+      "name": "Nalsarovar",
+      "state": "Gujarat",
+      "issue": "missing_authoritative_boundary",
+      "candidates": [
+        {
+          "source": "RSIS (Ramsar Secretariat) — unpublished geometry version",
+          "url": "https://rsis.ramsar.org/geoserver/wfs (layer ramsar_sdi:features, filter v_idris=<id>)",
+          "format": "GeoJSON via WFS",
+          "crs": "EPSG:4326",
+          "provenance": "Found by spatial search at the site's RSIS coordinate. The layer has no ramsarid, name or status; this v_idris is absent from every published/named RSIS layer, so the site identity and publication status cannot be established (draft, superseded or rejected version).",
+          "licence": "RSIS data reported as CC BY 4.0 (to be confirmed manually)",
+          "represents_ramsar_boundary": "unverified",
+          "identifier": {
+            "v_idris": 35652287
+          },
+          "features": 1,
+          "geodesic_area_ha": 11508.3,
+          "area_ratio_to_official": 0.959,
+          "valid": false,
+          "contains_site_point": null,
+          "status": "not_imported",
+          "reason": "Unpublished; site identity and status not established."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 2408,
+      "name": "Beas Conservation Reserve",
+      "state": "Punjab",
+      "issue": "invalid_rsis_geometry",
+      "candidates": [
+        {
+          "source": "WDPA / Protected Planet (UNEP-WCMC and IUCN)",
+          "format": "GeoJSON via ArcGIS REST",
+          "crs": "EPSG:4326",
+          "licence": "WDPA terms: no redistribution through web services or downloadable web maps without UNEP-WCMC permission; no commercial use. The portal's /roi endpoint serves polygons, so permission is required.",
+          "represents_ramsar_boundary": "WDPA record designated 'Wetland of International Importance (Ramsar Site)', verification 'State Verified'",
+          "url": "https://www.protectedplanet.net/555795297",
+          "identifier": {
+            "wdpa_site_id": 555795297,
+            "metadataid": 2123
+          },
+          "geodesic_area_ha": 6430.0,
+          "area_ratio_to_official": 1.0,
+          "valid": true,
+          "comparison_with_rsis": "IoU 0.99998, max deviation 38.6 m: the RSIS polygon with its self-intersection repaired by UNEP-WCMC (third-party repair).",
+          "status": "not_imported",
+          "reason": "Licence forbids serving via our web API without UNEP-WCMC permission."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 2413,
+      "name": "Saman Bird Sanctuary",
+      "state": "Uttar Pradesh",
+      "issue": "invalid_rsis_geometry",
+      "candidates": [
+        {
+          "source": "WDPA / Protected Planet (UNEP-WCMC and IUCN)",
+          "format": "GeoJSON via ArcGIS REST",
+          "crs": "EPSG:4326",
+          "licence": "WDPA terms: no redistribution through web services or downloadable web maps without UNEP-WCMC permission; no commercial use. The portal's /roi endpoint serves polygons, so permission is required.",
+          "represents_ramsar_boundary": "WDPA record designated 'Wetland of International Importance (Ramsar Site)', verification 'State Verified'",
+          "url": "https://www.protectedplanet.net/555795302",
+          "identifier": {
+            "wdpa_site_id": 555795302,
+            "metadataid": 2123
+          },
+          "geodesic_area_ha": 530.0,
+          "area_ratio_to_official": 1.003,
+          "valid": false,
+          "status": "not_imported",
+          "reason": "Licence forbids serving via our web API without UNEP-WCMC permission; geometry invalid."
+        }
+      ],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    },
+    {
+      "ramsar_number": 2548,
+      "name": "Kazhuveli Bird Sanctuary",
+      "state": "Tamil Nadu",
+      "issue": "invalid_rsis_geometry",
+      "candidates": [],
+      "authoritative_route": "MoEFCC Wetlands Division (India's Ramsar Administrative Authority) / Ramsar Secretariat"
+    }
+  ]
+}

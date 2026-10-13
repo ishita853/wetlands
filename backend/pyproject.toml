@@ -1,0 +1,32 @@
+[project]
+name = "ramsar-wetlands-backend"
+version = "0.1.0"
+description = "Backend API for the Indian Ramsar Wetlands Climate & Environment Monitoring Portal"
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+exclude = ["alembic/versions"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["B008"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["app"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.12"
+ignore_missing_imports = false
+
+[[tool.mypy.overrides]]
+module = ["celery.*", "boto3.*", "passlib.*", "shapely.*", "rasterio.*", "pyogrio.*"]
+ignore_missing_imports = true
